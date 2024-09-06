@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media all {
+ *{   
+    margin:0px;
+    padding: 0px;    
+}}
+@media screen and (orientation:portrait  ) {
+body{
+  /*background-size:contain ;*/
+    background-image: url(../Imagens/fundo\ roxo.jpg);
+}
+}
+img#perfil{ 
+   margin: auto;
+    height: 255%;
+    width: 50%;
+    display: block;
+}
+img{
+    margin: auto;
+    display: block;
+    height:60% ;
+    width: 80%;
+
+}
+
+
+

@@ -1,16 +1,23 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 *{
+    font-size: 20pt;
     margin: 0%;
     padding: 0%;
 }
 header{
-
+    font-family: "Playwrite CU", cursive;
     text-align: center;
     background-color:#1860F0;
 }
 #headerP{
+    background-color:#181CF0;
     text-align:center;
     font-size: 20pt;
+}
+#h1Header{
+    margin: 0px;
+background-color: #181CF0;
 }
 nav{ 
    box-shadow:3px 7px 10px #000000be;
@@ -34,7 +41,14 @@ a:hover{
     border-radius: 5px;
 }
 body{
+    background-image: url(../Imagens/fundo\ roxo.jpg); 
     text-align: center;
+}
+h1,h2{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background:linear-gradient(to left, rgb(18, 18, 148) , transparent);
 }
 main{
     box-shadow:3px 7px 10px #000000be;
@@ -43,19 +57,18 @@ main{
     width: 50vw;
     height: 210vh;
 }
-#fotoEU{
-    align-items: center;
-    height: 30vh;
-    width: 20vw;
+#voltar{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 50px;
+    width: 50px;
     display: block;
 }
-img{
-    text-align: center;
-    background-color: #94a2bd;
-    height:50vh;
-    width: 50vw;
-    display:block;
+#lkV
+{
+    background: transparent;
 }
+
 footer{
     padding: 10px;
     color: white;
